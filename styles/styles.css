@@ -159,7 +159,7 @@ img {
 }
 
 .dwn-cv-btn {
-    width: 150px;
+    width: 170px;
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
@@ -241,7 +241,8 @@ img {
     border-radius: 5px;
     background: var(--White-Color, #FFF);
     margin-bottom: 15px;
-    border-color: black;
+    border:0;
+    padding-left: 15px;
 }
 .user-email{
     width: 361px;
@@ -250,5 +251,11 @@ img {
     border-radius: 5px;
     background: var(--White-Color, #FFF);
     margin-bottom: 15px;
-    border-color: black;
+    border: 0;
+    padding-left: 15px;
+}
+textarea{
+    border: 0;
+    padding-left: 15px;
+    padding-top:7px ;
 }
